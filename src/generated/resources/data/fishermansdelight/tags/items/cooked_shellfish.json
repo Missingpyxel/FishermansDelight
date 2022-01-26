@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quark:cooked_crab_leg",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cooked_lobster_tail",
+      "required": false
+    }
+  ]
+}

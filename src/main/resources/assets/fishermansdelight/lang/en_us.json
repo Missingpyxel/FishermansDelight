@@ -1,0 +1,16 @@
+{
+  "item.fishermansdelight.neptunium_knife": "Neptunium Knife",
+
+  "item.fishermansdelight.shrimp" : "Raw Shrimp",
+
+  "item.fishermansdelight.tuna_steak" : "Raw Tuna Steak",
+  "item.fishermansdelight.cooked_tuna_steak" : "Cooked Tuna Steak",
+  "item.fishermansdelight.trout_steak" : "Raw Trout Steak",
+  "item.fishermansdelight.cooked_trout_steak" : "Cooked Trout Steak",
+  "item.fishermansdelight.catfish_fillet" : "Catfish Fillet",
+  "item.fishermansdelight.cooked_catfish_fillet" : "Cooked Catfish Fillet",
+
+  "item.fishermansdelight.nori" : "Nori",
+  "item.fishermansdelight.maki" : "Maki Roll",
+  "item.fishermansdelight.nigiri" : "Nigiri"
+}

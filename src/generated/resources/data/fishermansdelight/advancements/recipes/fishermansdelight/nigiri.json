@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fishermansdelight:nigiri"
+    ]
+  },
+  "criteria": {
+    "for_nigiri": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:cooked_rice"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bowl"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fishermansdelight:nigiri"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "for_nigiri",
+      "has_the_recipe"
+    ]
+  ]
+}

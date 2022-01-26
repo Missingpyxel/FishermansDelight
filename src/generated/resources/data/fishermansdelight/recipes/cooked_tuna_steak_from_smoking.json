@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fishermansdelight:tuna_steak"
+  },
+  "result": "fishermansdelight:cooked_tuna_steak",
+  "experience": 0.35,
+  "cookingtime": 100
+}

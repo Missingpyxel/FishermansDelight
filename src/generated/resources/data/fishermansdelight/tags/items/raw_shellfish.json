@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "quark:crab_leg",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:lobster_tail",
+      "required": false
+    }
+  ]
+}

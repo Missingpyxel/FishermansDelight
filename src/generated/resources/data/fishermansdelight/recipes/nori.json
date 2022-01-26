@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:seagrass"
+  },
+  "result": "fishermansdelight:nori",
+  "experience": 0.15,
+  "cookingtime": 200
+}
