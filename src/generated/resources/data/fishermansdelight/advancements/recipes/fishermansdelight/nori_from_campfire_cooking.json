@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fishermansdelight:nori_from_campfire_cooking"
+    ]
+  },
+  "criteria": {
+    "for_nori": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:seagrass"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fishermansdelight:nori_from_campfire_cooking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "for_nori",
+      "has_the_recipe"
+    ]
+  ]
+}

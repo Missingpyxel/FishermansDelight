@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "aquaculture",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+          {
+            "item": "aquaculture:bayad"
+          }
+        ],
+        "tool": {
+          "item": "fishermansdelight:neptunium_knife"
+        },
+        "result": [
+          {
+            "item": "aquaculture:fish_fillet_raw",
+            "count": 4
+          },
+          {
+            "item": "minecraft:bone_meal"
+          }
+        ]
+      }
+    }
+  ]
+}
