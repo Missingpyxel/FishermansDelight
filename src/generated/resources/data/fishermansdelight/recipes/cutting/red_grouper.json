@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "modid": "aquaculture",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "recipe": {
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+          {
+            "item": "aquaculture:red_grouper"
+          }
+        ],
+        "tool": {
+          "type": "fishermansdelight:exclusion",
+          "wanted": {
+            "tag": "forge:tools/knives"
+          },
+          "negated": {
+            "item": "fishermansdelight:neptunium_knife"
+          }
+        },
+        "result": [
+          {
+            "item": "aquaculture:fish_fillet_raw",
+            "count": 2
+          },
+          {
+            "item": "minecraft:bone_meal"
+          }
+        ]
+      }
+    }
+  ]
+}

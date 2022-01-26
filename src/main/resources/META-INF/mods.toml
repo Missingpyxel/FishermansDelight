@@ -1,0 +1,40 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[39,)" #mandatory
+license="MIT"
+[[mods]]
+modId="fishermansdelight" #mandatory
+version="1.0.0" #mandatory
+displayName="Fisherman's Delight" #mandatory
+logoFile="examplemod.png" #optional
+credits="Team Metallurgy for Aquaculture 2 and vectorwing for Farmer's Delight!" #optional
+authors="Missingpixel"
+description='''Adds much-needed compatibility, QOL and new content to bridge the gap between Aquaculture 2 and Farmer's Delight'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.fishermansdelight]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[39,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.fishermansdelight]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fishermansdelight]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.0.0,)"
+    ordering = "AFTER"
+    side = "BOTH"
