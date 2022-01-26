@@ -1,0 +1,15 @@
+Java Launcher: C:\Program Files\Java\jdk-17.0.1\bin\java.exe
+Arguments: '--task, SRG_TO_MCP, --input, C:\Users\Brandon Schumacher\.gradle\caches\modules-2\files-2.1\curse.maven\quark-250363\3575622\64087e2792ae74d1db8d71393f71752874e7b668\quark-250363-3575622.jar, --output, C:\Users\Brandon Schumacher\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\quark-250363\3575622_mapped_official_1.18.1\quark-250363-3575622_mapped_official_1.18.1.jar, --mcp, C:\Users\Brandon Schumacher\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.1\mapping-1.18.1-mapping.zip, --strip-signatures'
+Classpath:
+ - C:\Users\Brandon Schumacher\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.8\installertools-1.2.8-fatjar.jar
+Working directory: C:\Users\Brandon Schumacher\Desktop\Fisherman's Delight\build\_RenameSrg2Mcp_1699980185
+Main class: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Brandon Schumacher\.gradle\caches\modules-2\files-2.1\curse.maven\quark-250363\3575622\64087e2792ae74d1db8d71393f71752874e7b668\quark-250363-3575622.jar
+Output: C:\Users\Brandon Schumacher\.gradle\caches\forge_gradle\deobf_dependencies\curse\maven\quark-250363\3575622_mapped_official_1.18.1\quark-250363-3575622_mapped_official_1.18.1.jar
+MCP:    C:\Users\Brandon Schumacher\.gradle\caches\forge_gradle\mcp_repo\net\minecraft\mapping\1.18.1\mapping-1.18.1-mapping.zip
+Loading MCP Data
+Processing ZIP file
+Stripped Manifest of sha digests
+Process complete

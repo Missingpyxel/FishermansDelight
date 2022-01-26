@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fishermansdelight:maki"
+    ]
+  },
+  "criteria": {
+    "for_maki": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:cooked_rice"
+            ]
+          },
+          {
+            "items": [
+              "fishermansdelight:nori"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bowl"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fishermansdelight:maki"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "for_maki",
+      "has_the_recipe"
+    ]
+  ]
+}

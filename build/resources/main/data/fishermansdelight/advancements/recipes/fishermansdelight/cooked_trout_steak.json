@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "fishermansdelight:cooked_trout_steak"
+    ]
+  },
+  "criteria": {
+    "for_cooked_trout_steak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishermansdelight:trout_steak"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "fishermansdelight:cooked_trout_steak"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "for_cooked_trout_steak",
+      "has_the_recipe"
+    ]
+  ]
+}
