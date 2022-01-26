@@ -21,5 +21,11 @@ build
 eclipse
 run
 
+# forge gradle
+.gradle/
+build/
+run/
+.idea/
+
 # Files from Forge MDK
 forge*changelog.txt
