@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "quark:cooked_crab_leg",
-      "required": false
-    }
-  ]
-}
